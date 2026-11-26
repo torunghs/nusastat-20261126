@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NusaStat — Portal Statistik Indonesia</title>
+<meta name="description" content="Penduduk, ekonomi, kesehatan, dan pendidikan Indonesia dalam angka — dari data resmi BPS dan Bank Dunia.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">N</span>
+      <span class="brand-text"><strong>NusaStat</strong><small>Portal Statistik Indonesia</small></span>
+    </a>
+    <nav aria-label="Navigasi utama">
+      <a data-route="/" href="#/">Beranda</a>
+      <a data-route="/ekonomi" href="#/ekonomi">Ekonomi</a>
+      <a data-route="/demografi" href="#/demografi">Demografi</a>
+      <a data-route="/provinsi" href="#/provinsi">Provinsi</a>
+      <a data-route="/kesehatan" href="#/kesehatan">Kesehatan</a>
+      <a data-route="/banding" href="#/banding">Bandingkan</a>
+      <a data-route="/sumber" href="#/sumber">Sumber</a>
+    </nav>
+  </div>
+</header>
+<main id="view" class="wrap"></main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p><strong>NusaStat</strong> — situs statistik mandiri tentang Indonesia. Semua angka dari publikasi resmi
+    (BPS, Bank Dunia, SSGI Kemenkes, APJII); tahun data tercantum di tiap grafik dan tabel.</p>
+    <p>Berjalan sepenuhnya dari berkas statis, tanpa permintaan jaringan. <a href="#/sumber">Lihat sumber data →</a></p>
+  </div>
+</footer>
+<script type="module" src="main.js"></script>
+</body>
+</html>
